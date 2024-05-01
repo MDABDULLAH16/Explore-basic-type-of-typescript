@@ -10,7 +10,9 @@ let ex: undefined = undefined;
 let money: null = null;
 
 //array
-let friends: [string, string] = ['Nisha', 'jannat']
+let friends: string[] = ['Nisha', 'jannat']
+friends.push('ami')
 
 //tuple 
-let address: [string,number,boolean] = ['jamalpur',112,true]
+let address: [string, number, boolean] = ['jamalpur', 112, true]
+address[0]= 'college road'
