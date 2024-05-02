@@ -49,7 +49,12 @@
     const name: Name = 'parsian Bhai'
     const married: isMarried = true;
     const boyos: Age = 45;
-    const job: company= 'PH'
+    const job: company = 'PH';
+
+
+    type Add = (num1: number, num2: number) => number;
+
+    const add: Add = (num1, num2) => num1 + num2;
     
 
 }
